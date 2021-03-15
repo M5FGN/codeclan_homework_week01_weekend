@@ -35,8 +35,6 @@ def find_pet_by_name(pet_shop, pet_name):
         if pet['name'] == pet_name:
             return(pet)
 
-# Last Git Commit 
-
 # Test Not Passing - Have added else and it is printing not found but tese showing Pet... is Not None
 def remove_pet_by_name(pet_shop, pet_name):
     pet_list = pet_shop['pets'][:]
